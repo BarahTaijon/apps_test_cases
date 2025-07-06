@@ -1,0 +1,101 @@
+#,modul name,test case
+1,Account Management,Verify the ability to create a new account with valid information.
+2,Account Management,Verify the inability to create an account with incomplete or invalid information.
+3,Account Management,"Test the process of updating account information (e.g., address, phone number)."
+4,Account Management,Verify that account balances are updated accurately after transactions.
+5,Account Management,Test the account closure process and ensure all associated data is removed.
+6,Account Management,Check for account naming conventions and validation rules.
+7,Account Management,"Test the ability to link or unlink accounts (e.g., joint accounts)."
+8,Account Management,Verify that account statements are generated correctly.
+9,Account Management,Test account recovery options in case of forgotten credentials.
+10,Account Management,Check for account locking and unlocking functionality after failed login attempts.
+11,Account Management,Verify that account data remains confidential and is not accessible to unauthorized users.
+12,Account Management,Test for concurrent access to the same account from multiple devices.
+13,Account Management,"Verify that account data is synchronized across multiple platforms (web, mobile, ATM)."
+14,Account Management,Test the process of setting up account alerts and notifications.
+15,Account Management,"Verify the ability to export account data in various formats (e.g., CSV, PDF)."
+16,Account Management,Test the accuracy of interest calculations for savings accounts.
+17,Account Management,Confirm that accounts with different currencies are handled correctly.
+18,Account Management,"Check for the ability to set account-specific preferences (e.g., language, notifications)."
+19,Account Management,Verify that account histories are archived and retrievable.
+20,Account Management,Test the process of merging or closing duplicate accounts.
+21,Transaction Processing,"Test different types of transactions (e.g., deposits, withdrawals, transfers)."
+22,Transaction Processing,Verify that transactions are processed in real-time or within defined timeframes.
+23,Transaction Processing,Test for transaction limits and restrictions on various account types.
+24,Transaction Processing,Verify that transaction fees are accurately deducted.
+25,Transaction Processing,Test the ability to cancel or reverse pending transactions.
+26,Transaction Processing,Check for overdraft protection and notifications.
+27,Transaction Processing,"Verify that international transactions are handled appropriately (currency conversion, fees)."
+28,Transaction Processing,Test transactions during scheduled maintenance periods.
+29,Transaction Processing,Verify that transaction references and receipts are generated accurately.
+30,Transaction Processing,Test for duplicate transaction detection and prevention.
+31,Transaction Processing,Verify the handling of transactions involving joint accounts.
+32,Transaction Processing,"Test the process of setting up recurring transactions (e.g., bill payments)."
+33,Transaction Processing,"Check for the ability to designate transaction categories (e.g., groceries, entertainment)."
+34,Transaction Processing,Verify that transactions are reflected correctly in account statements.
+35,Transaction Processing,"Test transactions with offline banking options (e.g., check deposits at ATMs)."
+36,Transaction Processing,Verify the ability to dispute and investigate erroneous transactions.
+37,Transaction Processing,Test the integration with third-party payment gateways.
+38,Transaction Processing,Verify the handling of large transactions that may require additional authorization.
+39,Transaction Processing,Test the processing of transactions involving foreign exchange rates.
+40,Transaction Processing,Verify that transactions are time-stamped accurately for auditing purposes.
+41,User Authentication and Security ,Test the login functionality with valid credentials.
+42,User Authentication and Security ,Verify that incorrect login attempts result in appropriate error messages.
+43,User Authentication and Security ,"Test multi-factor authentication (MFA) methods (e.g., SMS, email, token)."
+44,User Authentication and Security ,Verify the account lockout mechanism after a specified number of failed login attempts.
+45,User Authentication and Security ,Test password reset functionality and security questions.
+46,User Authentication and Security ,Test the ability to change account passwords.
+47,User Authentication and Security ,"Verify that sensitive data (e.g., passwords, PINs) is masked or hidden."
+48,User Authentication and Security ,Verify secure password storage and encryption.
+49,User Authentication and Security ,"Test the application's response to suspicious login activity (e.g., from different locations)."
+50,User Authentication and Security ,"Verify the security of biometric authentication (e.g., fingerprint, facial recognition)."
+51,User Authentication and Security ,Test the handling of lost or stolen devices for mobile banking.
+52,User Authentication and Security ,Verify the expiration and automatic logout of idle sessions.
+53,User Authentication and Security ,Test the logout functionality and session termination.
+54,User Authentication and Security ,Verify the effectiveness of security certificates for encrypted communication.
+55,User Authentication and Security ,Test the behavior of the application in case of a known security vulnerability.
+56,User Authentication and Security ,Verify the implementation of role-based access control for staff members.
+57,User Authentication and Security ,Test for SQL injection and other common security vulnerabilities.
+58,User Authentication and Security ,Verify that user data is not stored on the client-side.
+59,User Authentication and Security ,Test the response to brute force attacks.
+60,User Authentication and Security ,Verify that security patches and updates are applied promptly.
+61,Mobile Banking,Test the installation and setup of the mobile banking app.
+62,Mobile Banking,"Verify the compatibility with different mobile device types (iOS, Android)."
+63,Mobile Banking,Test the responsiveness of the app on various screen sizes and resolutions.
+64,Mobile Banking,Test the mobile app's accessibility on both smartphones and tablets.
+65,Mobile Banking,Test mobile bill payment and funds transfer.
+66,Mobile Banking,Verify the accuracy of push notifications and alerts.
+67,Mobile Banking,"Test offline functionality, such as viewing account balances without an internet connection."
+68,Mobile Banking,Verify the ability to toggle between multiple user accounts.
+69,Mobile Banking,Test the mobile app's synchronization with the web-based banking platform.
+70,Mobile Banking,Verify that the app is accessible to users with disabilities (ADA compliance).
+71,Mobile Banking,Test the performance of the mobile app under low-network conditions.
+72,Mobile Banking,"Verify that biometric authentication (e.g., fingerprint, face ID) works securely."
+73,Mobile Banking,Test mobile app updates and their impact on existing data.
+74,Mobile Banking,Verify that the mobile app supports language preferences and localization.
+75,Mobile Banking,Test mobile app-specific features like remote account deactivation.
+76,Mobile Banking,Verify that mobile app data is protected against device theft or loss.
+77,Mobile Banking,Test the mobile app's ability to generate and scan QR codes for transactions.
+78,Mobile Banking,"Verify the handling of interruptions (e.g., phone calls) during app use."
+79,Mobile Banking,Verify that mobile check deposit functions correctly.
+80,Mobile Banking,Verify the integration of mobile app analytics for performance monitoring
+81,Cross-platform Compatibility,"Test the application on different web browsers (Chrome, Firefox, Safari, Edge, etc.)."
+82,Cross-platform Compatibility,Verify compatibility with various mobile devices (iOS and Android) and their versions.
+83,Cross-platform Compatibility,"Test on different operating systems (Windows, macOS, Linux) for web-based platforms."
+84,Cross-platform Compatibility,Verify the responsiveness and usability of the application on different screen sizes.
+85,Cross-platform Compatibility,"Test the application on various screen resolutions (e.g., HD, Full HD, 4K)."
+86,Cross-platform Compatibility,"Verify compatibility with different input devices (mouse, touchpad, touchscreen)."
+87,Cross-platform Compatibility,"Test on different network speeds and conditions (e.g., 3G, 4G, Wi-Fi, slow connections)."
+88,Cross-platform Compatibility,Verify compatibility with screen reader software for accessibility.
+89,Cross-platform Compatibility,Test for compatibility with third-party plugins or extensions in web browsers.
+90,Cross-platform Compatibility,Verify compatibility with different versions of Java (if applicable).
+91,Cross-platform Compatibility,Test the application's performance on low-end and high-end hardware.
+92,Cross-platform Compatibility,Verify compatibility with different email clients for transaction notifications.
+93,Cross-platform Compatibility,Test the application's compatibility with various PDF readers for statements.
+94,Cross-platform Compatibility,Verify that the application works seamlessly with different virtual private networks (VPNs).
+95,Cross-platform Compatibility,Test compatibility with screen rotation on mobile devices.
+96,Cross-platform Compatibility,Verify the application's compatibility with various firewall settings.
+97,Cross-platform Compatibility,Test the application's behavior on devices with different default languages.
+98,Cross-platform Compatibility,Verify that the application's UI elements adapt to the platform's design guidelines.
+99,Cross-platform Compatibility,Test compatibility with different security software and antivirus programs.
+100,Cross-platform Compatibility,Verify compatibility with various ad-blocking extensions or software.
